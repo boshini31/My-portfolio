@@ -2,7 +2,7 @@
 
 A modern, responsive **personal portfolio website** showcasing my journey in Artificial Intelligence, Machine Learning, and Software Development.
 
-🔗 Live Website: https://YOUR-VERCEL-LINK.vercel.app  
+🔗 Live Website: https://boshini.vercel.app/  
 📄 Resume: Available on the website  
 
 ---
