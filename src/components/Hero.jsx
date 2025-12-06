@@ -8,8 +8,6 @@ export default function Hero() {
   const roles = [
    "Full Stack Developer",
     "Backend Developer",
-    "Machine Learning Engineer",
-    "Data Analyst",
   ];
 
   const [currentText, setCurrentText] = useState("");

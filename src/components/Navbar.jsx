@@ -41,7 +41,7 @@ export default function Navbar() {
 
           {/* ✅ RESUME VIEW BUTTON */}
           <a
-            href="https://drive.google.com/file/d/127CZSwqaxrgGmfUSoDv-NA3TvNGX9m7Y/view"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-black transition text-sm font-semibold shadow-md"
@@ -51,8 +51,9 @@ export default function Navbar() {
 
           {/* ✅ RESUME DOWNLOAD BUTTON */}
           <a
-            href="https://drive.google.com/uc?export=download&id=127CZSwqaxrgGmfUSoDv-NA3TvNGX9m7Y"
+            href="/resume.pdf"
             target="_blank"
+            download = "Boshini_TP_resume.pdf"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-cyan-400 text-black rounded-lg hover:bg-cyan-300 transition text-sm font-semibold shadow-md"
           >
@@ -92,7 +93,7 @@ export default function Navbar() {
 
             {/* ✅ MOBILE VIEW RESUME */}
             <a
-              href="https://drive.google.com/file/d/127CZSwqaxrgGmfUSoDv-NA3TvNGX9m7Y/view"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 text-center px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-black transition"
@@ -102,8 +103,9 @@ export default function Navbar() {
 
             {/* ✅ MOBILE DOWNLOAD RESUME */}
             <a
-              href="https://drive.google.com/uc?export=download&id=127CZSwqaxrgGmfUSoDv-NA3TvNGX9m7Y"
+              href="/resume.pdf"
               target="_blank"
+              download = "Boshini_TP_resume.pdf"
               rel="noopener noreferrer"
               className="text-center px-4 py-2 bg-cyan-400 text-black rounded-lg hover:bg-cyan-300 transition"
             >
