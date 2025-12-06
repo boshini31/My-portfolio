@@ -1,6 +1,6 @@
 # 🌟 Boshini TP - Portfolio
 
-A modern, responsive **personal portfolio website** showcasing my journey in Artificial Intelligence, Machine Learning, and Software Development.
+A modern, responsive **personal portfolio website** showcasing my journey in Software Development.
 
 🔗 Live Website: https://boshini.vercel.app/  
 📄 Resume: Available on the website  
@@ -9,7 +9,7 @@ A modern, responsive **personal portfolio website** showcasing my journey in Art
 
 ## 👩‍💻 About Me
 
-I am passionate about Artificial Intelligence and intelligent system development, continuously learning and building scalable applications with strong technical foundations. My focus is on mastering AI while combining it with modern development practices.
+I am passionate about system development, continuously learning and building scalable applications with strong technical foundations. My focus is on mastering AI while combining it with modern development practices.
 
 ---
 
