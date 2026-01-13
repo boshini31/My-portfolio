@@ -25,13 +25,13 @@ export default function AboutMe() {
     {
       icon: <Code2 className="w-10 h-10 text-cyan-400 mb-4" />,
       title: "Current Focus",
-      desc: "Enhancing Software development skills and Gen-AI",
+      desc: "Enhancing software development skills and technical expertise.",
       delay: 0.5
     },
     {
       icon: <Target className="w-10 h-10 text-cyan-400 mb-4" />,
       title: "Goal",
-      desc: "Driven to excel in Artificial Intelligence and develop intelligent systems that shape the future of technology.",
+      desc: "Driven to learn, innovate, and develop scalable systems that create meaningful impact.",
       delay: 0.7
     }
   ];
@@ -53,12 +53,9 @@ export default function AboutMe() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        I am a motivated Software Developer who enjoys turning complex requirements into structured, scalable solutions. 
-        My work focuses on backend development, data automation, and enterprise application design, 
-        where precision and reliability are essential.
-        From building employee data processing systems to supporting large-scale organizational workflows, 
-        I have developed a strong foundation in Java, Python, Spring Boot, and PostgreSQL.
-        I value consistency, logical thinking, and continuous learning, and I strive to deliver work that is both technically sound and meaningful.
+       Hi, I’m Boshini TP.
+       An IT graduate and Java developer with hands-on experience in building scalable enterprise applications using Spring Boot and REST APIs.
+       I enjoy solving problems, learning quickly, and turning ideas into reliable software.
       </motion.p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">

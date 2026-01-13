@@ -6,7 +6,8 @@ import { useState, useEffect } from "react";
 
 export default function Hero() {
   const roles = [
-   "Full Stack Developer",
+    "Software Engineer",
+    "Software Developer",
     "Backend Developer",
   ];
 
@@ -74,7 +75,7 @@ export default function Hero() {
           transition={{ delay: 1.2, duration: 0.8 }}
         >
           I am a Software Developer specializing in backend systems and automation, 
-          passionate about building scalable, efficient, and reliable applications using Java, Python, and Spring Boot.
+          passionate about building scalable, efficient, and reliable applications using Java and Spring Boot.
         </motion.p>
 
         {/* Buttons */}
