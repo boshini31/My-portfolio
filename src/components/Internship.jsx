@@ -23,7 +23,7 @@ export default function Internship() {
       role: "Developer Intern",
       company: "Hexaware Technologies",
       duration: "Mar 2025 – Sep 2025",
-      desc: "Handled high-volume employee data management with a focus on accuracy, compliance, and process optimization. Utilized Excel and internal enterprise systems to support onboarding, offboarding, and workforce data updates while ensuring data integrity and consistency across platforms. Followed strict SOP-driven workflows, performed continuous self-audits, and delivered reports within defined SLAs. Collaborated with cross-functional teams to streamline data operations, improve workflow efficiency, and maintain reliable enterprise data processing in high-pressure environments.",
+      desc: "Worked on a production-level internal enterprise application focused on employee data processing and reporting. Developed backend modules using Java and Spring Boot, built REST APIs, and implemented end-to-end Excel data ingestion pipelines with validations and error handling. Optimized database queries, fixed bugs, and ensured data accuracy through debugging and testing. Collaborated with cross-functional teams in an Agile environment, participating in daily stand-ups, sprint planning, code reviews, and documentation.",
       delay: 0.2,
     },
     {

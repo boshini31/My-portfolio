@@ -24,13 +24,13 @@ const projects = [
     code: "https://github.com/boshini31/AUTISM-PREDEICTION-USING-DEEP-LEARNING",
   },
   {
-    title: "Customer Support Chat-bot using Deep Learning",
+    title: "Seren - AI",
     description:
-    "This project is an intelligent customer support chatbot that improves customer experience and operational efficiency using machine learning techniques such as NLP, sentiment analysis, and deep learning,It understands user intent and emotions to provide accurate, real-time responses, enabling 24/7 self-service for businesses. By automating FAQs and common issue resolution, the chatbot reduces the workload on support teams, enhances response speed, and offers a scalable solution for delivering efficient and cost-effective customer service.",
+    "Seren AI is an emotion-aware conversational system designed to interact like a caring mother. It combines memory, emotional reasoning, and Large Language Models to generate natural, empathetic responses based on user context and past interactions.",
     image: Chatbot,
-    tech: ["Python", "NLP", "Sentiment analysis", "Kaggle","Data Analysis"],
+    tech: ["FastAPI", "Python", "SQLModel", "PostgreSQL", "Large Language Models (LLMs)", "Prompt Engineering", "Contextual Memory Design", "REST APIs"],
     live: null,
-    code: "https://github.com/boshini31/CUSTOMER-SUPPORT-CHATBOT-USING-MACHINE-LEARNING",
+    code: "https://github.com/boshini31/SerenAI",
   },
   
 ];
@@ -57,7 +57,7 @@ export default function Projects() {
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        Here are some of my recent projects that showcase my skills in Development and Machine Learning AI.
+        Here are some of my recent projects that showcase my skills in Development.
       </motion.p>
 
       {/* Projects Grid */}
