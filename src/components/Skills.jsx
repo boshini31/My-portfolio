@@ -2,14 +2,11 @@
 import { motion } from "framer-motion";
 import {
   FaJava,
-  FaLinux,
   FaDatabase,
-  FaWindows,
   FaCode,
 } from "react-icons/fa";
 import {
   SiSpringboot,
-  SiHibernate,
   SiPostgresql,
   SiPostman,
   SiApachetomcat,
@@ -22,15 +19,11 @@ export default function Skills() {
     { name: "SQL", icon: <FaDatabase className="text-blue-400" /> },
 
     { name: "Spring Boot", icon: <SiSpringboot className="text-green-600" /> },
-    { name: "Hibernate", icon: <SiHibernate className="text-orange-500" /> },
     { name: "Tomcat, ", icon: <SiApachetomcat className = "text-orange-500" />},
     { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-500" /> },
     { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
     { name: "Git", icon: <SiGit className="text-blue-500" /> },
     
-
-    { name: "Windows", icon: <FaWindows className="text-blue-400" /> },
-    { name: "Kali Linux", icon: <FaLinux className="text-yellow-400" /> },
   ];
 
   const container = {
