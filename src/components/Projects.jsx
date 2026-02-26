@@ -3,7 +3,7 @@ import { ExternalLink, Code } from "lucide-react";
 import Asetroids from "../assets/Asetroids.jpg";
 import Autism from "../assets/Autism.jpg";
 import Chatbot from "../assets/Chatbot.jpg";
-
+import ExpenseTracker from "../assets/ExpenseTracker.png";
 const projects = [
   {
     title: "Analyzing Dynamic Asteroids and Hazard Visualization",
@@ -13,6 +13,15 @@ const projects = [
     tech: ["Python", "Machine Learning Algorithms", "NLP for Data Interpretation", "Ploty(Data Visualization)","NASA NEO Dataset","Data Preprocessing Techniques"],
     live: null,
     code: "https://github.com/boshini31/-Analyzing-Dynamic-Asteroids-and-Hazard-Visualization",
+  },
+  {
+    title: "Personal Expense Tracker",
+    description:
+     "The Full Stack Expense Tracker is a web application designed to help users monitor income, track expenses, categorize transactions, and analyze spending patterns in real time. The system provides a clean dashboard experience and persistent data storage, enabling users to make informed financial decisions. Built using a modern full stack architecture, the application integrates a responsive frontend with a RESTful Spring Boot backend and a relational database.",
+    image: ExpenseTracker,
+    tech: ["HTML", "CSS", "Javascript","Java", "Spring Boot", "Spring Data JPA","Hibernate", "PostgreSQL"],
+    live: null,
+    code: "https://github.com/boshini31/PersonalExpenseTracker",
   },
   {
     title: "Autism Prediction Using Deep Learning",
@@ -32,6 +41,7 @@ const projects = [
     live: null,
     code: "https://github.com/boshini31/SerenAI",
   },
+
   
 ];
 
