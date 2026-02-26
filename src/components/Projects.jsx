@@ -24,15 +24,6 @@ const projects = [
     code: "https://github.com/boshini31/PersonalExpenseTracker",
   },
   {
-    title: "Autism Prediction Using Deep Learning",
-    description:
-     "A deep learning-based system that analyzes medical and behavioral data to predict ASD with high accuracy, supporting early diagnosis and improved healthcare decision-making.",
-    image: Autism,
-    tech: ["Python", "TensorFlow", "Keras", "Deep Learning","Machine Learning", "Multi-Layer Perceptron","Convolutional Neural Networks(CNN)","Recurrent Neural Network(RNN)","Data Preprocessing","Scikit-learn","Pandas","Numpy"],
-    live: null,
-    code: "https://github.com/boshini31/AUTISM-PREDEICTION-USING-DEEP-LEARNING",
-  },
-  {
     title: "Seren - AI",
     description:
     "Seren AI is an emotion-aware conversational system designed to interact like a caring mother. It combines memory, emotional reasoning, and Large Language Models to generate natural, empathetic responses based on user context and past interactions.",
@@ -42,7 +33,6 @@ const projects = [
     code: "https://github.com/boshini31/SerenAI",
   },
 
-  
 ];
 
 export default function Projects() {
