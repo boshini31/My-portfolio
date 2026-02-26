@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Code } from "lucide-react";
 import Asetroids from "../assets/Asetroids.jpg";
-import Autism from "../assets/Autism.jpg";
 import Chatbot from "../assets/Chatbot.jpg";
-import ExpenseTracker from "../assets/ExpenseTracker.png";
+import ExpenseTracker from "../assets/ExpenseTracker.jpg";
 const projects = [
   {
     title: "Analyzing Dynamic Asteroids and Hazard Visualization",
