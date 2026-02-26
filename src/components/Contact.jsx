@@ -30,7 +30,7 @@ export default function Contact() {
       icon: <Mail className="w-10 h-10 text-cyan-400 mb-4" />,
       title: "Gmail",
       desc: "Drop me a message",
-      link: "https://mail.google.com/mail/?view=cm&fs=1&to=boshini.tmp@gmail.com",
+      link: "https://mail.google.com/mail/?view=cm&fs=1&to=boshinitp@gmail.com",
       delay: 0.5,
     },
     {
