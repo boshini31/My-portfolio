@@ -19,7 +19,7 @@ const projects = [
     description:
      "The Full Stack Expense Tracker is a web application designed to help users monitor income, track expenses, categorize transactions, and analyze spending patterns in real time. The system provides a clean dashboard experience and persistent data storage, enabling users to make informed financial decisions. Built using a modern full stack architecture, the application integrates a responsive frontend with a RESTful Spring Boot backend and a relational database.",
     image: ExpenseTracker,
-    tech: ["HTML", "CSS", "Javascript","Java", "Spring Boot", "Spring Data JPA","Hibernate", "PostgreSQL"],
+    tech: ["HTML", "CSS","Javascript","Java", "Spring Boot", "Spring Data JPA","Hibernate", "PostgreSQL"],
     live: null,
     code: "https://github.com/boshini31/PersonalExpenseTracker",
   },
