@@ -6,9 +6,7 @@ import { useState, useEffect } from "react";
 
 export default function Hero() {
   const roles = [
-    "Software Engineer",
     "Software Developer",
-    "Backend Developer",
   ];
 
   const [currentText, setCurrentText] = useState("");

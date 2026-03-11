@@ -54,8 +54,9 @@ export default function AboutMe() {
         transition={{ duration: 0.8, delay: 0.2 }}
       >
        Hi, I’m Boshini TP.
-       An IT graduate and Java developer with hands-on experience in building scalable enterprise applications using Spring Boot and REST APIs.
-       I enjoy solving problems, learning quickly, and turning ideas into reliable software.
+       An IT graduate and Software developer with internship experience in backend and frontend development. Skilled in building APIs, scalable applications,
+       and data processing systems, with exposure to AI technologies and a passion for
+       solving real-world problems through technology.
       </motion.p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
