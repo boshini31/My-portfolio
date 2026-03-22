@@ -72,8 +72,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
         >
-          I am a Software Developer specializing in backend systems and automation, 
-          passionate about building scalable, efficient, and reliable applications using Java and Spring Boot.
+          I am a Software Developer focused on backend systems and automation, driven to build scalable, efficient, and reliable applications, with a growing interest in applying AI to solve real-world problems.
         </motion.p>
 
         {/* Buttons */}
