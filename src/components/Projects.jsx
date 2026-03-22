@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ExternalLink, Code } from "lucide-react";
 import Asetroids from "../assets/Asetroids.jpg";
 import Chatbot from "../assets/Chatbot.jpg";
+import Edgegaming from"../assets/Edgegaming.png";
 import ExpenseTracker from "../assets/ExpenseTracker.jpg";
 const projects = [
   {
@@ -14,13 +15,13 @@ const projects = [
     code: "https://github.com/boshini31/-Analyzing-Dynamic-Asteroids-and-Hazard-Visualization",
   },
   {
-    title: "Personal Expense Tracker",
+    title: "5G-Ready Edge AI System for Gaming Latency Reduction",
     description:
-     "The Full Stack Expense Tracker is a web application designed to help users monitor income, track expenses, categorize transactions, and analyze spending patterns in real time. The system provides a clean dashboard experience and persistent data storage, enabling users to make informed financial decisions. Built using a modern full stack architecture, the application integrates a responsive frontend with a RESTful Spring Boot backend and a relational database.",
-    image: ExpenseTracker,
-    tech: ["HTML", "CSS","Javascript","Java", "Spring Boot", "Spring Data JPA","Hibernate", "PostgreSQL"],
+     "Developed an edge-based AI system to optimize gaming latency and performance.Built and deployed an LSTM model for real-time lag prediction using Flask APIs. Designed a client-server pipeline for real-time inference and feedback. Containerized the system with Docker and visualized performance improvements.",
+    image: Edgegaming,
+    tech: ["Python", "PyTorch","Flask","Docker", "Matplotlib", "NumPy","Pandas"],
     live: null,
-    code: "https://github.com/boshini31/PersonalExpenseTracker",
+    code: "https://github.com/boshini31/5G-Ready-Edge-AI-System-for-Gaming-Latency-Reduction",
   },
   {
     title: "Seren - AI",
@@ -30,6 +31,15 @@ const projects = [
     tech: ["FastAPI", "Python", "SQLModel", "PostgreSQL", "Large Language Models (LLMs)", "Prompt Engineering", "Contextual Memory Design", "REST APIs"],
     live: null,
     code: "https://github.com/boshini31/SerenAI",
+  },
+  {
+    title: "Personal Expense Tracker",
+    description:
+    "A Full Stack Expense Tracker Web Application that helps users manage their personal finances by tracking income, expenses, categories, and budgets. The system provides analytics and reports to understand spending patterns and manage money effectively. This project is built using Spring Boot (Backend) and ReactJS (Frontend) following a RESTful architecture.",
+    image: ExpenseTracker,
+    tech: ["Java", "Spring Boot", "Spring Data JPA", "PostgreSQL", "React.js"],
+    live: null,
+    code: "https://github.com/boshini31/PersonalExpenseTracker",
   },
 
 ];

@@ -3,23 +3,25 @@ import { motion } from "framer-motion";
 import {
   FaJava,
   FaDatabase,
-  FaCode,
+  FaPython,
+  FaFlask,
 } from "react-icons/fa";
 import {
-  SiSpringboot,
   SiPostgresql,
   SiPostman,
-  SiApachetomcat,
   SiGit,
 } from "react-icons/si";
 
 export default function Skills() {
   const skills = [
-    { name: "Java", icon: <FaJava className="text-red-600" /> },
+    { name: "Python", icon: <FaPython className="text-red-600" /> },
     { name: "SQL", icon: <FaDatabase className="text-blue-400" /> },
-
-    { name: "Spring Boot", icon: <SiSpringboot className="text-green-600" /> },
-    { name: "Tomcat, ", icon: <SiApachetomcat className = "text-orange-500" />},
+    { name: "Flask", icon: <FaFlask className="text-blue-600" /> },
+    { name: "Java", icon: <FaJava className="text-red-600" /> },
+    { name: "Machine Learning",icon: <FaMachineLearning className="text-red-600" /> },
+    { name: "TensorFlow", icon: <FaTensorFlow className="text-green-600" /> },
+    { name: "Sci-Kit Learn", icon: <FaSci-kitLearn className="text-blue-600" /> },
+    { name: "Pandas", icon: <FaPandas className="text-red-600" /> },
     { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-500" /> },
     { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
     { name: "Git", icon: <SiGit className="text-blue-500" /> },
