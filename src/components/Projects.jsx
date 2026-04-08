@@ -4,6 +4,8 @@ import Asetroids from "../assets/Asetroids.jpg";
 import Chatbot from "../assets/Chatbot.jpg";
 import Edgegaming from"../assets/Edgegaming.png";
 import ExpenseTracker from "../assets/ExpenseTracker.jpg";
+import WorkForceImg from "../assets/WorkForceImg.png";
+
 const projects = [
   {
     title: "Analyzing Dynamic Asteroids and Hazard Visualization",
@@ -22,6 +24,15 @@ const projects = [
     tech: ["Python", "PyTorch","Flask","Docker", "Matplotlib", "NumPy","Pandas"],
     live: null,
     code: "https://github.com/boshini31/5G-Ready-Edge-AI-System-for-Gaming-Latency-Reduction",
+  },
+  {
+    title: "WorkForce Competency Management System",
+    description:
+     "A smart workforce intelligence platform that transforms employee data into actionable insights, enabling performance analysis, intelligent skill mapping, and seamless project allocation through an intuitive, real-time dashboard.",
+    image: WorkForceImg,
+    tech: ["Python", "FastAPI", "Scikit-learn", "spaCy", "SQLAlchemy", "PostgreSQL", "HTML", "CSS", "JavaScript", "Chart.js"],
+    live: "https://workforce-competency-management-sys.vercel.app",
+    code: "https://github.com/boshini31/Workforce-Competency-Management-System",
   },
   {
     title: "Seren - AI",
