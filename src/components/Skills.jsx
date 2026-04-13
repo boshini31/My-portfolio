@@ -5,6 +5,7 @@ import {
   FaDatabase,
   FaPython,
   FaFlask,
+  FaSpringBoot,
 } from "react-icons/fa";
 import {
   SiPostgresql,
@@ -14,10 +15,11 @@ import {
 
 export default function Skills() {
   const skills = [
+    { name: "Java", icon: <FaJava className="text-red-600" /> },
     { name: "Python", icon: <FaPython className="text-red-600" /> },
     { name: "SQL", icon: <FaDatabase className="text-blue-400" /> },
+    { name: "Spring Boot", icon: <FaSpringBoot className="text-red-600" /> },
     { name: "Flask", icon: <FaFlask className="text-blue-600" /> },
-    { name: "Java", icon: <FaJava className="text-red-600" /> },
     { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-500" /> },
     { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
     { name: "Git", icon: <SiGit className="text-blue-500" /> },
