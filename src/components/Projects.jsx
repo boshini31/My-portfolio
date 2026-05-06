@@ -5,16 +5,15 @@ import Chatbot from "../assets/Chatbot.jpg";
 import Edgegaming from"../assets/Edgegaming.png";
 import ExpenseTracker from "../assets/ExpenseTracker.jpg";
 import WorkForceImg from "../assets/WorkForceImg.png";
-
+import IIM from "../assets/IIM.png";
 const projects = [
   {
-    title: "Analyzing Dynamic Asteroids and Hazard Visualization",
-    description:
-      "A machine learning-based system that analyzes NASA’s Near-Earth Object data to predict and visualize potentially hazardous asteroids, improving accuracy in space risk assessment.",
-    image: Asetroids,
-    tech: ["Python", "Machine Learning Algorithms", "NLP for Data Interpretation", "Ploty(Data Visualization)","NASA NEO Dataset","Data Preprocessing Techniques"],
+    title: "Intelligence Incident Monitoring System",
+    description: "Built a backend system that lets microservices report logs via REST API, automatically detects error spikes using Redis sliding-window counters, groups similar incidents to reduce noise, and generates alerts with simulated email notifications. Features JWT authentication, async Kafka pipeline, Redis caching for analytics, full Swagger docs, and Docker Compose deployment.",
+    image: IIM ,
+    tech:["Java", "Spring Boot", "JWT Authentication", "Apache Kafka", "Redis", "PostgreSQL", "Docker", "Maven", "Swagger", "JPA"],
     live: null,
-    code: "https://github.com/boshini31/-Analyzing-Dynamic-Asteroids-and-Hazard-Visualization",
+    code: "https://github.com/boshini31/Intelligence-Incident-Monitoring-System"
   },
   {
     title: "5G-Ready Edge AI System for Gaming Latency Reduction",
@@ -35,15 +34,6 @@ const projects = [
     code: "https://github.com/boshini31/Workforce-Competency-Management-System",
   },
   {
-    title: "Seren - AI",
-    description:
-    "Seren AI is an emotion-aware conversational system designed to interact like a caring mother. It combines memory, emotional reasoning, and Large Language Models to generate natural, empathetic responses based on user context and past interactions.",
-    image: Chatbot,
-    tech: ["FastAPI", "Python", "SQLModel", "PostgreSQL", "Large Language Models (LLMs)", "Prompt Engineering", "Contextual Memory Design", "REST APIs"],
-    live: null,
-    code: "https://github.com/boshini31/SerenAI",
-  },
-  {
     title: "Personal Expense Tracker",
     description:
     "A Full Stack Expense Tracker Web Application that helps users manage their personal finances by tracking income, expenses, categories, and budgets. The system provides analytics and reports to understand spending patterns and manage money effectively. This project is built using Spring Boot (Backend) and ReactJS (Frontend) following a RESTful architecture.",
@@ -52,6 +42,25 @@ const projects = [
     live: null,
     code: "https://github.com/boshini31/PersonalExpenseTracker",
   },
+  {
+    title: "Analyzing Dynamic Asteroids and Hazard Visualization",
+    description:
+      "A machine learning-based system that analyzes NASA’s Near-Earth Object data to predict and visualize potentially hazardous asteroids, improving accuracy in space risk assessment.",
+    image: Asetroids,
+    tech: ["Python", "Machine Learning Algorithms", "NLP for Data Interpretation", "Ploty(Data Visualization)","NASA NEO Dataset","Data Preprocessing Techniques"],
+    live: null,
+    code: "https://github.com/boshini31/-Analyzing-Dynamic-Asteroids-and-Hazard-Visualization",
+  },
+  {
+    title: "Seren - AI",
+    description:
+    "Seren AI is an emotion-aware conversational system designed to interact like a caring mother. It combines memory, emotional reasoning, and Large Language Models to generate natural, empathetic responses based on user context and past interactions.",
+    image: Chatbot,
+    tech: ["FastAPI", "Python", "SQLModel", "PostgreSQL", "Large Language Models (LLMs)", "Prompt Engineering", "Contextual Memory Design", "REST APIs"],
+    live: null,
+    code: "https://github.com/boshini31/SerenAI",
+  },
+  
 
 ];
 
